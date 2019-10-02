@@ -1,0 +1,44 @@
+{
+  "name": "my-react-gulp-webpack-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack  ./src/index.js ./dist/bundle.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.6.1",
+    "babel-core": "^6.7.6",
+    "babel-loader": "^6.2.4",
+    "babel-minify-webpack-plugin": "^0.3.1",
+    "babel-plugin-syntax-async-functions": "^6.5.0",
+    "babel-plugin-syntax-flow": "^6.5.0",
+    "babel-plugin-syntax-jsx": "^6.5.0",
+    "babel-plugin-syntax-object-rest-spread": "^6.5.0",
+    "babel-plugin-syntax-trailing-function-commas": "^6.5.0",
+    "babel-plugin-transform-flow-strip-types": "^6.5.0",
+    "babel-plugin-transform-object-rest-spread": "^6.6.5",
+    "babel-plugin-transform-react-jsx": "^6.7.5",
+    "babel-plugin-transform-regenerator": "^6.5.2",
+    "babel-plugin-transform-runtime": "^6.5.2",
+    "babel-preset-es2015": "^6.5.0",
+    "browser-sync": "^2.26.7",
+    "css-loader": "^3.2.0",
+    "gulp": "^4.0.2",
+    "gulp-concat-css": "^3.1.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "style-loader": "^1.0.0",
+    "webpack": "^1.13.0",
+    "webpack-cli": "^3.3.8"
+  },
+  "dependencies": {
+    "flux": "^3.1.3",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
+}
